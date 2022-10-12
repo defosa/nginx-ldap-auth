@@ -7,10 +7,10 @@
 
  /etc/systemd/system/nginx-ldap-auth-daemon.service
  
-systemctl daemon-reload
-systemctl enable nginx-ldap-auth-daemon.service
-systemctl start nginx-ldap-auth-daemon
-
-systemctl status nginx-ldap-auth-daemon
-
--------------
+systemctl daemon-reload<br>
+systemctl enable nginx-ldap-auth-daemon.service<br>
+systemctl start nginx-ldap-auth-daemon<br>
+<br>
+systemctl status nginx-ldap-auth-daemon<br>
+<br>
+-------------<br>
